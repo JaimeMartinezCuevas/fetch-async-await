@@ -66,3 +66,63 @@ header {
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
 }
+
+/* --- */
+
+.container {
+  padding: 50px;
+}
+
+.botones {
+  margin-bottom: 40px;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 65px;
+  border-radius: 10px;
+  
+  transition: all 0.1s linear;
+}
+
+.entry:hover {
+  -webkit-box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+}
+
+.entry img {
+  width: 100px;
+}
+
+.entry p {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+}
+
+.tipos p {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 50px;
+}
+
+.tipos {
+  display: flex;
+  gap: 10px;
+}
